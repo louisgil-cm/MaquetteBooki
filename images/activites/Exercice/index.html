@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>accueil</title>
+    <style>
+        /* Styles pour le conteneur */
+.container {
+    width: 100%; /* Le conteneur occupe toute la largeur disponible */
+    padding: 10px;
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+    overflow: hidden; /* Cache tout débordement */
+    background-color: lightgrey;
+}
+
+/* Styles pour les éléments */
+.item {
+    background-color: lightblue;
+    padding: 20px;
+    margin: 10px 0; /* Espace vertical entre les éléments */
+    text-align: center;
+    width: 100%; /* Les éléments occupent toute la largeur du conteneur */
+    box-sizing: border-box; /* Inclut le padding dans la largeur totale */
+}
+
+/* Media queries pour ajuster la disposition en fonction de la taille de l'écran */
+@media (min-width: 600px) {
+    .item {
+        width: calc(50% - 20px); /* Deux éléments par ligne à partir de 600px */
+        margin: 10px; /* Espace autour des éléments */
+        float: left; /* Les éléments flottent à gauche */
+    }
+}
+
+@media (min-width: 900px) {
+    .item {
+        width: calc(33.333% - 20px); /* Trois éléments par ligne à partir de 900px */
+        margin: 10px; /* Espace autour des éléments */
+    }
+}
+    </style>
+
+</head>
+<body>
+    <div class="container">
+        <div class="item">Item 1</div>
+        <div class="item">Item 2</div>
+        <div class="item">Item 3</div>
+    </div>
+</body>
+</html>
