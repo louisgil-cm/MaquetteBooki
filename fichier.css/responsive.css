@@ -89,8 +89,8 @@
 
 @media screen and (max-width: 768px) {
   .first-items-content {
-    width: calc(50% - 20px);
-    /* Deux enfants par ligne sur mobile */
+   display: flex;
+   flex-wrap: wrap;
   }
 }
 
