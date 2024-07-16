@@ -9,6 +9,25 @@
   }
 }
 
+@media screen and (max-width: 992px) {
+  button{
+      border-radius: 10px;
+  }
+  Button .text {
+      display: none;
+  }
+
+  Button .icon {
+      display: block;
+
+  }
+  button i{
+      border: none;
+      background: none;
+  }
+}
+
+
 @media (max-width: 768px) {
   .navigation {
      display: flex;
