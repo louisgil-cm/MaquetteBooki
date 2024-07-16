@@ -12,11 +12,12 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="fichier.css/responsive.css">
     <link rel="stylesheet" href="fichier.css/styleSection1.css">
+    <link rel="stylesheet" href="responsiveOrd.css">
     <script src="https://kit.fontawesome.com/d3c09034d0.js"> </script>
 </head>
 
 <body>
-    <!-- header block --> 
+    <!-- header block -->
     <header>
         <section class="navigation">
             <img src="images/logo/Booki.png" alt="logo Reservia" class="logo">
@@ -29,17 +30,17 @@
         <!-- section search -->
         <section class="search-section">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-            <h2 class="title-search">En plein centre ville ou en pleine nature</h2>
-                <form action="get">
-                    <i class="fa-solid fa-location-dot"></i>
-                    <input type="search" name="search" id="search" placeholder="Marseille, France">
-                    <button>
-                        <span class="text">Recherche</span>
-                        <span class="icon">
-                            <i class="fa-solid fa-magnifying-glass fa-rotate-270"></i>
-                        </span>
-                    </button>
-                </form>
+            <h2 class="title-search">En plein centre ville ou en pleine nature</h2><br>
+            <form action="get">
+                <i class="fa-solid fa-location-dot"></i>
+                <input type="search" name="search" id="search" placeholder="Marseille, France">
+                <button>
+                    <span class="text">Recherche</span>
+                    <span class="icon">
+                        <i class="fa-solid fa-magnifying-glass fa-rotate-270"></i>
+                    </span>
+                </button>
+            </form>
         </section>
         <section class="filtering">
             <h3>Filtres</h3>
@@ -171,14 +172,14 @@
                 <div class="top-title">
                     <h3>Les plus populaires</h3>
                     <i class="fa-solid fa-star"></i>
-                </div> 
+                </div>
                 <div class="parent-block">
                     <div class="child-block">
                         <img src="images/redim/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="photohotel1"
                             class="imgFlex">
                         <div class="link">
-                            <h4>Hôtel Le soleil du matin</h4>
-                            <span>Nuit à partir de 128<strong>€</strong> </span>
+                                <h4>Hôtel Le soleil du <br> matin</h4>
+                                <span>Nuit à partir de 128<strong>€</strong> </span>
                             <div class="star">
                                 <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
                                 <i class="fa-solid fa-star " style=" color: #0065fc;"></i>
@@ -221,83 +222,67 @@
             </div>
 
         </section>
-        <p class="titr">Activités à Marseille</p>
+        <h3 id="activ">Activités à Marseille</h3>
         <Section class="second-section-main">
             <div class="block1">
                 <img src="images/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg"
                     alt="vieux port avec bateau et ville en arrière plan" class="img-block1-items">
-                <p>Vieux Port</p>
+                <h3>Vieux Port</h3>
             </div>
             <div class="block2">
                 <div class="block2-items-1">
                     <img src="images/activites/1_xlarge/paul-hermann-QFTrLdQIRhI-unsplash.jpg"
                         alt="fort de pomegues en pierre" class="first-img-block2-items">
-                    <p>Fort de Pomègues</p>
+                    <h3>Fort de Pomègues</h3>
                 </div>
                 <div class="block2-items-2">
                     <img src="images/activites/1_xlarge/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg" alt=" national"
                         class="second-img-block2-items">
-                    <p>Ïles du Friole</p>
+                    <h3>Ïles du Friole</h3>
                 </div>
             </div>
             <div class="block1">
                 <img src="images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg"
                     alt="Vue sur le parc national des calanques" class="img-block1-items">
-                <p>Parc National des Calanquest</p>
+                    <h3>Parc National des Calanquest</h3>
             </div>
             <div class="block3">
                 <div class="block3-items">
                     <img src="images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg"
                         alt="notre dame de la garde surplombant la ville" class="img-block3-items">
-                    <p>Notre-Dame-de-la-Garde</p>
+                    <h3>Notre-Dame-de-la-Garde</h3>
                 </div>
                 <div class="block3-items">
                     <img src="images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg" alt="parc longchamp"
                         class="img-block3-items">
-                    <p>Longchamp</p>
+                        <h3>Longchamp</h3>
                 </div>
             </div>
         </Section>
     </main>
 
     <!-- pied de page -->
-    <footer class="pied">
-        <div class="L1">
-            <div class="">
-                <h3>A propos</h3>
-            </div>
-            <div class="">
-                <a href="#">Conditions générales de vente</a>
-            </div>
-            <div class="">
-                <a href="#">Données et confidentialité</a>
-            </div>
-        </div>
-        <div class="">
-            <div class="">
-                <h3>Nos hébergements</h3>
-            </div>
-            <div class="">
-                <a href="#">Charte qualité</a>
-            </div>
-            <div class="">
-                <a href="#">Soumettre votre hôtel</a>
-            </div>
-        </div>
-        <div class="">
-            <div class="">
-                <h3>Assistance</h3>
-            </div>
-            <div class="">
-                <a href="#">Centre d'aide</a>
-            </div>
-            <div class="">
-                <a href="#">Nous contarcter</a>
-            </div>
-        </div>
-    </footer>
-    </main>
 
+    <footer>
+        <ul>
+            <li>
+                <h3>A propos</h3>
+                <span>Conditions générales de vente</span>
+                <span>Données et confidentialité</span>
+                <span>Donné et confidentialité</span>
+            </li>
+            <li>
+                <h3>Nos hébergements</h3>
+                <span>Charte qualité</span>
+                <span>Soumettre votre hôtel</span>
+            </li>
+            <li>
+                <h3>Assistance</h3>
+                <span> Centre d'aide</span>
+                <span>Nous contacter</span>
+            </li>
+        </ul>
+    </footer>
 </body>
 
 </html>

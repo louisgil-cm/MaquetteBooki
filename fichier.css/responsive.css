@@ -32,12 +32,12 @@
 }
 
 @media (max-width: 768px) {
-  .filterin{
+  .filtering{
      width: 100%;
   }
   
 }
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 768px) {
 
   .filtering,
   ul {
@@ -172,7 +172,7 @@
 /* pieds de page */
 
 @media (max-width: 768px) {
-  .pied{
+  footer ul{
     width: 100%;
     display: flex;
    flex-wrap: wrap;
