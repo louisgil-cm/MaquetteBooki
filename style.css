@@ -8,7 +8,6 @@ body{
 }
 
 
-
 .navigation {
     display: flex;
 
@@ -111,14 +110,12 @@ ul {
 }
 
 header li {
-    border: 1px solid #deebff ;
-    border-radius: 20px;
+    border: 1px solid #f2f2f2 ;
+    border-radius: 30px;
     list-style-type: none;
-    padding-right: 0px;
     display: flex;
     flex-direction: row;
     gap: 20px;
-    padding-right: 5px;
     box-sizing: border-box;
     overflow: hidden;
     flex-wrap: wrap;
@@ -138,24 +135,24 @@ header ul{
 }
 
  header li i {
-    border: 1px solid #deebff;
+    border: px solid #f2f2f2;
     border-radius: 50%;
     color:#0065fc;
     background-color: #deebff;
-    width: 20px;
-    height: 20px;
-    padding: 10px;
+    width: 21px;
+    height: 21px;
+    padding: 20px;
 
 }
 
 main p i {
-    border: 1px solid #deebff;
+    border: 1px solid #f2f2f2;
     border-radius: 50%;
     color: #0065fc;
-    padding: 5px;
+    padding: 10px;
 }
 .filtering li span{
-   padding: 10px;
+   padding: 20px;
   font-weight: 800;
    font-size: 1.2em;
 }
@@ -166,6 +163,7 @@ main p i {
     gap: 20px;
     margin: 30px 0px 20px 0px;
     box-sizing: border-box;
+
 }
 
 
@@ -177,8 +175,8 @@ main p i {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     box-sizing: border-box;
-    max-width: 840px;
     padding: 30px;
+    width: 70%;
 
 
 
@@ -195,15 +193,6 @@ main p i {
 button i{
    
     color: white;
-}
-
-
-@media screen and (max-width:768px) {
-    .second-content {
-    display: flex;
-    flex-direction: column;
-    }
-
 }
 
 .cadre {               /*conteneur du premier block du main block*/
@@ -232,8 +221,8 @@ button i{
 .texte{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    padding: 10px;
+    padding-left: 10px;
+    margin-top: 0px;
 }
 
 
@@ -287,7 +276,7 @@ border: 5px solid white;
 .second-section-main{
     display: flex;
     gap: 20px;
-    margin:20px 10px 30px 10px ;
+    margin:20px 0px 30px 10px ;
 }
 #activ{
     margin-left: 10px;

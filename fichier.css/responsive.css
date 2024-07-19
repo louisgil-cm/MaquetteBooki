@@ -1,7 +1,7 @@
 /* header */
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .nav-items {
     display: flex;
     width: 100%;
@@ -28,7 +28,7 @@
 }
 
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .navigation {
      display: flex;
     flex-wrap: wrap;
@@ -36,12 +36,12 @@
      flex-direction: column;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .search-section{
      width: 100%;
   }
 }
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   nav{
      display: flex;
      flex-direction: row;
@@ -50,13 +50,13 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .filtering{
      width: 100%;
   }
   
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
 
   .filtering,
   ul {
@@ -65,7 +65,11 @@
     flex-wrap: wrap;
   }
 }
-@media screen and (max-width: 768px) {
+
+
+
+
+@media screen and (max-width: 992px) {
   .second-link{
     border-top: 3px solid grey;
    
@@ -78,26 +82,28 @@
 /* première section */
 /* marseille */
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .first-section-main {
     display: block;
     flex-direction: row-reverse;
     display: flex;
     flex-direction: column-reverse;
+    width: 100%;
   }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .first-block {
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    width: 100%;
 
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .first-items-content {
     display: flex;
     flex-direction: row;
@@ -106,7 +112,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .first-items-content {
     width: calc(50% - 20px);
     /* Deux enfants par ligne sur mobile */
@@ -122,7 +128,7 @@
 
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 992px) {
   .contenant {
     width: calc(50% - 20px);
     /* Deux enfants par ligne sur mobile */
@@ -144,7 +150,7 @@
 /* populaire */
 /* Media query pour les écrans mobiles */
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .child-block {
       width: 100%;
       
@@ -152,15 +158,10 @@
   
 }
 
-@media screen and(max-width: 768px) {
-  .first-block {
-    width: 100%;
-  }
-}
 
 /* deuxième section */
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .second-section-main {
     display: flex;
     flex-direction: column;
@@ -168,21 +169,21 @@
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .block1 {
     width: 100%;
 
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .block2 {
     width: 100%;
 
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   .block3 {
     width: 100%;
   }
@@ -190,7 +191,7 @@
 
 /* pieds de page */
 
-@media (max-width: 768px) {
+@media (max-width: 992px) {
   footer ul{
     width: 100%;
     display: flex;
@@ -199,17 +200,6 @@
   }
 }
 
-
-
-@media (max-width: 1280px) {
-  .first-section-main {
-    display: block;
-    flex-direction: row-reverse;
-    display: flex;
-    flex-direction: column-reverse;
-    width: 100%;
-  }
-}
 
 
 
