@@ -53,14 +53,17 @@
 @media (max-width: 992px) {
   .filtering{
      width: 100%;
+
   }
   
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1016px) {
 
   .filtering,
   ul {
-
+    width: 100%;
+    justify-content: flex-start;
+    align-items: start;
     display: flex;
     flex-wrap: wrap;
   }
@@ -153,6 +156,7 @@
 @media (max-width: 992px) {
   .child-block {
       width: 100%;
+     
       
   }
   
