@@ -19,16 +19,16 @@
 <body>
     <!-- header block -->
     <header>
-        <section class="navigation">
+       <section class="navigation">
             <img src="images/logo/Booki.png" alt="logo Reservia" class="logo">
             <!-- navigation -->
             <nav>
                 <a href="#" class="first-link"> Hebergement</a>
                 <a href="#" class="second-link">Activités</a>
             </nav>
-        </section>
+        </section> 
         <!-- section search -->
-        <section class="search-section">
+            <section class="search-section">
             <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
             <h2 class="title-search">En plein centre ville ou en pleine nature</h2><br>
             <form action="get">
@@ -37,33 +37,43 @@
                 <button>
                     <span class="text">Recherche</span>
                     <span class="icon">
-                        <i class="fa-solid fa-magnifying-glass fa-rotate-270"></i>
+                        <i class="fas fa-search"></i>
                     </span>
                 </button>
-            </form>
+            </form> 
         </section>
-        <section class="filtering">
-            <h3>Filtres</h3>
-            <ul>
-                <li>
-                    <i class="fa-solid fa-money-bill-wave"></i>
-                    <span>Economique</span>
-                </li>
-                <li>
-                    <i class="fa-solid fa-child"></i>
-                    <span>Famial</span>
-                </li>
-                <li>
-                    <i class="fa-solid fa-heart"></i>
-                    <span>Romantique</span>
-                </li>
-                <li>
-                    <i class="fa-solid fa-dog"></i>
-                    <span>Animaux autorisés</span>
-                </li>
-            </ul>
-        </section>
+        <div class="gras flexCentre filtres">
+            <div id="retourLigne">Filtres</div>
+            <div class="flexCentre bordureFiltre">
+                <div class="filtreIcone">
+                    <i class="fas fa-money-bill-wave"></i>
+                </div>
+                Economique
+            </div>
+            
+            <div class="flexCentre bordureFiltre">
+                <div class="filtreIcone">
+                    <i class="fas fa-child"></i>
+                </div>
+                Familial
+            </div>
+
+            <div class="flexCentre bordureFiltre">
+                <div class="filtreIcone">
+                <i class="fas fa-heart"></i>
+                </div>
+                Romantique
+            </div>
+
+            <div class="flexCentre bordureFiltre">
+                <div class="filtreIcone">
+                <i class="fas fa-dog"></i>
+                </div>
+                Animaux autorisés
+            </div>
+        </div>
     </header>
+        
     <!-- section main -->
     <main>
         <p class="paragrah-main">
@@ -82,11 +92,11 @@
                             <h5>Auberge la Cannebière</h5>
                             <span>Nuit à partir de 25<strong>€</strong></span>
                             <div class="etoile">
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star " style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #D3D3D3;"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileGrise"></i>
                             </div>
                         </div>
                     </div>
@@ -97,11 +107,11 @@
                             <h5>Hôtel Les mouettes</h5>
                             <span>Nuit à partir de <strong>76€</strong></span>
                             <div class="etoile">
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star " style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
                             </div>
                         </div>
                     </div>
@@ -112,11 +122,11 @@
                             <h5>Hôtel de la mer</h5>
                             <span> Nuit à partir de <strong>46€</strong></span>
                             <div class="etoile">
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star " style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #D3D3D3;"></i>
-                                <i class="fa-solid fa-star" style=" color: #D3D3D3;"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileGrise"></i>
                             </div>
                         </div>
                     </div>
@@ -127,11 +137,11 @@
                             <h5>Auberge Le Panier</h5>
                             <span>Nuit à partir de <strong>23€</strong></span>
                             <div class="etoile">
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star " style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #D3D3D3;"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileGrise"></i>
+                                <i class="fas fa-star etoileGrise"></i>
                             </div>
                         </div>
                     </div>
@@ -142,11 +152,11 @@
                             <h5>Hôtel du port</h5>
                             <span>Nuit à partir de <strong>52€</strong></span>
                             <div class="etoile">
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star " style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star " style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #D3D3D3;"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileGrise"></i>
                             </div>
                         </div>
                     </div>
@@ -157,11 +167,11 @@
                             <h5>Hôtel chez Amina</h5>
                             <span>Nuit à partir de <strong>96€</strong></span>
                             <div class="etoile">
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star " style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
                             </div>
                         </div>
                     </div>
@@ -181,11 +191,11 @@
                             <h5>Hôtel Le soleil du matin</h5>
                             <span>Nuit à partir de 128€ </span>
                             <div class="star">
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star " style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
                             </div>
                         </div>
                     </div>
@@ -195,11 +205,11 @@
                             <h5>Hôtel Le soleil du matin</h5>
                             <span >Nuit à partir de 128<strong>€</strong> </span>
                             <div class="star">
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star " style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #D3D3D3;"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileGrise"></i>
                             </div>
                         </div>
                     </div>
@@ -210,11 +220,11 @@
                             <h5>Hôtel Tout bleu et Blanc</h5>
                             <span>Nuit à partir de 68<strong>€</strong></span>
                             <div class="star">
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star " style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #0065fc;"></i>
-                                <i class="fa-solid fa-star" style=" color: #D3D3D3;"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileBleue"></i>
+                                <i class="fas fa-star etoileGrise"></i>
                             </div>
                         </div>
                     </div>

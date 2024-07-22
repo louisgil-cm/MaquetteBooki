@@ -66,17 +66,19 @@
     .link h5{
         margin-top: -2px;
         font-size: 17px;
+        font-family: 'Raleway';
     }
     .link span{
         margin: -27px 0px 40px 0px;
         font-size: 15px;
+        font-family: 'Raleway';
     }
    
 
     .link i {
-        width: 5px;
+        width: 1px;
         height: 1px;
-        padding: 5px;
+        padding: 7px;
         margin-top: 20px;
     }
 

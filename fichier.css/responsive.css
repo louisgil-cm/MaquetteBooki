@@ -53,6 +53,8 @@
 @media (max-width: 992px) {
   .filtering{
      width: 100%;
+     display: flex;
+     flex-direction: column;
 
   }
   
@@ -61,11 +63,10 @@
 
   .filtering,
   ul {
-    width: 100%;
-    justify-content: flex-start;
-    align-items: start;
     display: flex;
+    width: 100%;
     flex-wrap: wrap;
+    margin-left: -50px;
   }
 }
 
@@ -144,7 +145,6 @@
   .contenant {
     width: 100%;
     /* Un enfant par ligne sur les écrans très étroits */
-    margin: 5px 0;
 
   }
 }

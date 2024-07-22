@@ -1,12 +1,132 @@
+@media (max-width: 992px) {
+    
+    .filtres{
+        width: auto;
+        display: flex;
+        flex-wrap: wrap
+    }
+    
+    #retourLigne{
+        width: 200px;
+    }
+
+    .filtreIcone{
+        height: 65px;
+        min-width: 65px;
+        margin-right: 15px;
+
+    }
+    
+    .bordureFiltre{
+        height: 59px;
+        margin-top: 20px;
+        border: 3px solid #F2F2F2;
+        margin-left: 0px;
+        margin-right: 15px ;
+        border-left: none;
+    }
+    
+}
+
+
+
+
+.filtres{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    font-size: 1.1em;
+}
+
+.filtreIcone{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.bordureFiltre{
+    padding-right: 20px;
+    border-radius: 50px;
+    box-sizing: content-box;
+    border: 2px solid #F2F2F2;
+    border-left: none;
+    height: 48px;
+    width: 200px;
+    margin-left: 25px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    
+}
+
+
+
+.etoileBleue{
+    color: #0065FC;
+}
+
+.etoileGrise{
+    color: #dadada;
+}
+
+/*hover filtre*/
+
+.bordureFiltre:hover{
+    box-shadow: 0px 0px 35px #dadada;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 header{
     box-sizing: border-box;
 }
 body{
-    font-family: 'Raleway';
     box-sizing: border-box;
 }
 
+header h1{
+    font-family: 'Raleway';
+}
 
 .navigation {
     display: flex;
@@ -21,12 +141,14 @@ nav {
    
     justify-content: center;
     align-items: center;
+    font-family: 'Raleway';
 }
 .first-link{
     border-top: #0065fc 3px solid;
     padding: 50px;
     box-sizing: border-box;
     color: #0065fc;
+    margin-top: -12px;
 }
 nav a:hover{
     border: 1px solid #deebff;
@@ -43,11 +165,13 @@ nav a:hover{
     padding: 50px;
     box-sizing: border-box;
     width: 180px;
+    margin-top: -5px;
 }
 
 .title-search {
     opacity: 0.75;
     font-size: 1.1rem;
+    font-family: 'Raleway';
    
 }
 
@@ -105,6 +229,7 @@ form i {
     gap: 20px;
     box-sizing: border-box;
     margin-top: 10px;
+    font-family: 'Raleway';
  
 }
 
@@ -151,16 +276,22 @@ header ul{
     align-items: center;
 }
 
+main i {
+    font-family: 'Raleway';
+}
+
 main p i {
     border: 1px solid #f2f2f2;
     border-radius: 50%;
     color: #0065fc;
     padding: 10px;
+     font-family: 'Raleway';
 }
 .filtering li span{
    padding: 20px;
   font-weight: 800;
    font-size: 1.2em;
+   font-family: 'Raleway';
 }
 .filtering li span:hover{
   color: white;
@@ -234,10 +365,12 @@ button i{
     .texte h5{
         margin-top: -2px;
         font-size: 17px;
+        font-family: 'Raleway';
     }
     .texte span{
         margin-top: -27px;
         font-size: 15px;
+        font-family: 'Raleway';
     }
    
 
@@ -316,6 +449,7 @@ border: 5px solid white;
 .block2-items-2 h3,
 .block3-items h3 {
     padding: 0px 0px 10px 20px;
+    font-family: 'Raleway';
 }
 
 .block2{
@@ -323,7 +457,6 @@ border: 5px solid white;
 display: flex;
 flex-direction: column;
 gap: 20px;
-box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .block3-items{
@@ -432,7 +565,6 @@ a {
 
 
 .block1:hover,
-.block2:hover,
 .block2-items-1:hover,
 .block2-items-2:hover,
 .block3-items:hover {
@@ -446,6 +578,7 @@ a {
 footer{
     background-color: #f2f2f2;
     padding: 15px 0px 15px 0px;
+    font-family: 'Raleway';
 }
 footer ul li{
     display: flex;
