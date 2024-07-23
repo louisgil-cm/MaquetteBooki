@@ -493,8 +493,9 @@ border: 5px solid white;
 
 footer{
     background-color: #f2f2f2;
-    padding: 15px 0px 15px 0px;
     font-family: 'Raleway';
+    padding: 20px 40px 40px 40px;
+    margin: 0 -40px -40px -40px;
 }
 footer ul li{
     display: flex;
@@ -650,7 +651,7 @@ footer ul{
     }
 
     footer{
-        margin: 5px;
-        padding: 30px;
+        margin: -11px;
+        padding: 12px;
     }
   }

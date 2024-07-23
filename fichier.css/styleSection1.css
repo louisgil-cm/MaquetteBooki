@@ -16,7 +16,7 @@
     align-items: center;
     justify-content: flex-end;
     gap: 10px;
-    width: 90%;
+    width: 100%;
 }
 
 .parent-block {
