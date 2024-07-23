@@ -1,179 +1,89 @@
-@media (max-width: 992px) {
-    
-    .filtres{
-        width: auto;
-        display: flex;
-        flex-wrap: wrap
-    }
-    
-    #retourLigne{
-        width: 200px;
+/*Police utilisée Raleway*/
+body {
+    font-family: Raleway, Arial, sans-serif;
+    margin: 40px;
     }
 
-    .filtreIcone{
-        height: 65px;
-        min-width: 65px;
-        margin-right: 15px;
+/*header*/
 
-    }
-    
-    .bordureFiltre{
-        height: 59px;
-        margin-top: 20px;
-        border: 3px solid #F2F2F2;
-        margin-left: 0px;
-        margin-right: 15px ;
-        border-left: none;
-    }
-    
-}
-
-
-
-
-.filtres{
+header {
     display: flex;
-    justify-content: flex-start;
-    margin-top: 30px;
-    font-size: 1.1em;
-}
-
-.filtreIcone{
-    height: 50px;
-    width: 50px;
-    border-radius: 50%;
-    color: #0065FC;
-    background-color: #DEEBFF;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-right: 10px;
-}
-
-.bordureFiltre{
-    padding-right: 20px;
-    border-radius: 50px;
-    box-sizing: content-box;
-    border: 2px solid #F2F2F2;
-    border-left: none;
-    height: 48px;
-    width: 200px;
-    margin-left: 25px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    
-}
-
-
-
-.etoileBleue{
-    color: #0065FC;
-}
-
-.etoileGrise{
-    color: #dadada;
-}
-
-/*hover filtre*/
-
-.bordureFiltre:hover{
-    box-shadow: 0px 0px 35px #dadada;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-header{
-    box-sizing: border-box;
-}
-body{
-    box-sizing: border-box;
-}
-
-header h1{
-    font-family: 'Raleway';
-}
-
-.navigation {
-    display: flex;
-
     justify-content: space-between;
-    align-items: center;
 }
 
-nav {
+header img{
+    width: 120px;
+}
+
+/*Barre de navigation avec/sans s'inscrire*/
+
+nav ul{
+    list-style: none;
     display: flex;
-    flex-direction: row;
-   
-    justify-content: center;
-    align-items: center;
-    font-family: 'Raleway';
-}
-.first-link{
-    border-top: #0065fc 3px solid;
-    padding: 50px;
-    box-sizing: border-box;
-    color: #0065fc;
-    margin-top: -12px;
-}
-nav a:hover{
-    border: 1px solid #deebff;
-    padding: 50px;
-    background-color: #0065fc;
-    box-sizing: border-box;
-    color: black;
-}
-nav a:hover{
-    color: white;
-}
-.second-link{
-    border-top:white 3px solid;
-    padding: 50px;
-    box-sizing: border-box;
-    width: 180px;
-    margin-top: -5px;
 }
 
-.title-search {
-    opacity: 0.75;
-    font-size: 1.1rem;
-    font-family: 'Raleway';
-   
+nav li{
+    margin-right: 30px;
 }
+
+a{
+    text-decoration: none;
+}
+
+nav a{
+    color: #0065FC;
+}
+
+/*Effet hover sur barre de navigation*/
+
+nav a:hover{
+    padding-top: 52px;
+    border-top: 4px solid #0043a7;
+    color: #0043a7;
+    transition: 0.3s;
+}
+
+/*section recherche*/
+
+h1{
+    padding-top: 10px;
+    font-size: 1.4em;
+}
+
+#slogan{
+    margin-top: -10px;
+}
+
+.gras{
+    font-weight: bold;
+}
+
+/*Barre de recherche avec/sans loupe et avec/sans "rechercher*/
+
+.barreRecherche{
+    display: flex;
+}
+
+.bordureRecherche{
+    width: 400px;
+    border-radius: 15px;
+    border: 0.5px solid #F2F2F2;
+}
+
+.recherche{
+    height: 50px;
+    width: 230px;
+    font-size: 18px;
+    font-weight: bold;
+    color: black;
+    padding-left: 20px;
+}
+
+
+
+
+
+
 
 form{
     align-items: center;
@@ -186,6 +96,10 @@ form{
     margin-top: 10px;
     
 
+}
+
+.icon{
+    display: none;
 }
 
 button {
@@ -221,81 +135,155 @@ form i {
     border-bottom-left-radius: 10px;
     background-color: #f2f2f2;
     box-sizing: border-box;
+    height: 50px;
 
 }
 
-.filtering {
-    display: flex;
-    gap: 20px;
-    box-sizing: border-box;
-    margin-top: 10px;
-    font-family: 'Raleway';
- 
+
+
+
+
+
+
+
+
+
+/*Icones flex*/
+
+.tailleIcone {
+    height: 50px;
+    width: 50px;
+    border-radius: 15px 0 0 15px;
 }
 
-header ul  li {
-    border: 1px solid #f2f2f2 ;
-    border-radius: 25px;
-    list-style-type: none;
+.fondGris {
+    background-color: #F2F2F2;
+}
+
+.fondBleuFonce{
+    background-color: #0065FC;
+}
+
+.fondBleuClair{
+    background-color: #DEEBFF;
+}
+
+.flexCentre {
     display: flex;
-    flex-direction: row;
-    box-sizing: border-box;
-    align-items: center;
     justify-content: center;
-    height: 45px;
-   
-
-}
- header li:hover{
-    background-color: #74C0FC;
-}
-
-header ul{
-    display: flex;
-    gap: 10px;
-    box-sizing: border-box;
-    display: flex;
-    justify-content: center;
     align-items: center;
+  }
+.bordureNone {
+    border: none;
 }
 
- header li i {
-    border: 0.25px solid #f2f2f2;
+.bouttonRecherche{
+    height: 50px;
+    width: 120px;
+    color: white;
+    border-radius: 0 15px 15px 0;
+}
+
+/*hover recherche*/
+
+.bouttonRecherche:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 35px #2727278e;
+
+}
+
+.filtres{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 30px;
+    font-size: 1.1em;
+}
+
+.filtreIcone{
+    height: 50px;
+    width: 50px;
     border-radius: 50%;
-    color:#0065fc;
-    width: 20px;
+    color: #0065FC;
+    background-color: #DEEBFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.bordureFiltre{
+    padding-right: 20px;
+    border-radius: 50px;
+    box-sizing: content-box;
+    border: 2px solid #F2F2F2;
+    border-left: none;
+    height: 48px;
+    margin-left: 25px;
+    cursor: pointer;
+}
+
+/*hover filtre*/
+
+.bordureFiltre:hover{
+    box-shadow: 0px 0px 35px #dadada;
+}
+
+/*petit i en rond avec texte*/
+
+.iTexte{
+    display: flex;
+    margin-top: 15px;
+    align-items: center;
+}
+
+.iRond{
     height: 20px;
-    padding: 10px;
-    background-color: #74C0FC;
-
-}
-
-.filtering li{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-main i {
-    font-family: 'Raleway';
-}
-
-main p i {
-    border: 1px solid #f2f2f2;
+    width: 20px;
     border-radius: 50%;
+    border: 2px solid #F2F2F2;
+    margin-right: 10px;
+}
+
+.iRond i{
+    color: #0065FC;
+    font-size: 12px;
+}
+
+
+
+
+.etoileBleue{
+    color: #0065FC;
+}
+
+.etoileGrise{
+    color: #dadada;
+}
+
+/*hover filtre*/
+
+.bordureFiltre:hover{
+    box-shadow: 0px 0px 35px #dadada;
+}
+
+.first-link{
+    border-top: #0065fc 3px solid;
+    padding: 50px;
+    box-sizing: border-box;
     color: #0065fc;
-    padding: 10px;
-     font-family: 'Raleway';
+    margin-top: -12px;
 }
-.filtering li span{
-   padding: 20px;
-  font-weight: 800;
-   font-size: 1.2em;
-   font-family: 'Raleway';
+nav a:hover{
+    border: 1px solid #deebff;
+    padding: 50px;
+    background-color: #0065fc;
+    box-sizing: border-box;
+    color: black;
 }
-.filtering li span:hover{
-  color: white;
+nav a:hover{
+    color: white;
 }
+
 
 .first-section-main {      /* première section  du main*/
     width: 100%;
@@ -317,19 +305,6 @@ main p i {
     box-sizing: border-box;
     padding: 30px;
     width: 65%;
-}
-
-
-
-.icon{
-    display: none;
-}
-
-
-
-button i{
-   
-    color: white;
 }
 
 .cadre {               /*conteneur du premier block du main block*/
@@ -427,151 +402,92 @@ border: 5px solid white;
 
 
 
-.second-section-main{
-    display: flex;
-    gap: 20px;
-    margin:20px 0px 30px 10px ;
-}
-#activ{
-    margin-left: 10px;
-}
-
-.block1
- {
-  width: 28%;
-  border: #deebff 1px solid;
-  border-radius: 20px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-  
-}
-.block1 h3,
-.block2-items-1 h3,
-.block2-items-2 h3,
-.block3-items h3 {
-    padding: 0px 0px 10px 20px;
-    font-family: 'Raleway';
-}
-
-.block2{
- width: 24%;
-display: flex;
-flex-direction: column;
-gap: 20px;
-}
-
-.block3-items{
-    width: 100%;
-    height: 50%; 
-    border: #deebff 1px solid;
-    border-radius: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-}
-
-
-
-.block3{
-
-    width: 20%;
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-.block2-items-1{
-   /* height: 60%; */
-   border-radius: 20px;
-   border: #deebff 1px solid;
-   padding-bottom: 20px;
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
-}
-.block2-items-2{
-/* height: 40%; */
- border-radius: 20px;
- border: #deebff 1px solid;
- padding-bottom: 20px;
- box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-/* .second-section-main p{
-
-} */
-.img-block1-items{
-border-top-left-radius: 10px;
-border-top-right-radius: 10px;
-width: 100%;
-/* height: 90%; */
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
-height: 90%;
-object-fit: cover;
-
-
-}
-.first-img-block2-items{
-width: 100%;
-height: 90%; 
-border-top-left-radius: 20px;
-border-top-right-radius: 20px;
-object-fit: cover;
-}
-.second-img-block2-items{
-    width: 100%;
-    height: 85%; 
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    object-fit: cover;
-}
-.img-block3-items{
-    width: 100%;
-    /* height: 80%; */
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-    height: 80%;
-    object-fit: cover;
-}
-
-.block1 p{
-    width: 100%;
-}
-
-.info {
-    display: flex;
-}
-
-.image {
+.galerieActivite{
     display: flex;
     justify-content: space-between;
+    height: 460px;
+    gap: 30px;
+    width: 100%;
+    margin-bottom: 40px;
 }
 
-
-
-a {
-    text-decoration: none;
-    font-weight: 500;
-    color: #130707;
-
+#Activités{
+    margin-bottom: 50px;
 }
 
-.pied {
-    display: flex;
-    background-color: #f2f2f2;
-    box-sizing: border-box;
-    gap: 30px; 
-    padding: 40px;
-    justify-content: space space-around;
-    
+#Activités h2{
+    margin-top: 50px;
 }
 
-
-.block1:hover,
-.block2-items-1:hover,
-.block2-items-2:hover,
-.block3-items:hover {
-
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.vignetteActivite{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 35px #dadada;
+    width: 25%;
+    min-width: 150px;
     cursor: pointer;
-    transform: translateY(-10px);
+}
+
+.vignetteActivite:hover, .vignetteMini:hover{
+    transition: 0.1s ease-in-out;
+    transform: scale(1.03);
+    box-shadow: 0px 0px 35px #2727278e;
+}
+
+.vignetteActiviteDouble{
+    width: 25%;
+    min-width: 150px;
+}
+
+.vignetteMini{
+    border-radius: 20px;
+    background-color: white;
+    box-shadow: 0px 0px 35px #dadada;
+    min-width: 150px;
+    cursor: pointer;
+    padding-bottom: 0.1px;
+}
+
+.imgActivite{
+    border-radius: 20px 20px 0 0;
+    padding-top: 410px;
+    background-size: cover;
+    background-position: center;
+}
+
+.galerieActivite p{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+#vieuxPort{
+    background-image: url('aset/images/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg');
+}
+
+#pomegues{
+    background-image: url('aset/images/paul-hermann-QFTrLdQIRhI-unsplash.jpg');
+    padding-top: 210px;
+}
+
+#frioul{
+    background-image: url('aset/images/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg');
+    padding-top: 120px;
+    margin-top: 30px;
+}
+
+#calanques{
+    background-image: url('aset/images/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg');
+}
+
+#notreDame{
+    background-image: url('aset/images/florian-wehde-xW9e8gdotxI-unsplash.jpg');
+    padding-top: 160px;
+}
+
+#longchamp{
+    background-image: url('aset/images/lena-paulin-wH2-EJoDcV0-unsplash.jpg');
+    padding-top: 170px;
+    margin-top: 30px;
 }
 
 
@@ -594,3 +510,147 @@ footer ul{
     padding-right: 300px;
     box-sizing: border-box;
 }
+
+@media all and (max-width: 992px) {
+    body {
+        width: 93%;
+        margin: 15px;
+    }
+
+    header{
+        font-size: 1.3em;
+        display: initial;
+    }
+    
+    header img{
+        width: 160px;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        width: 100%;
+        padding: 0;
+    }
+
+    nav a{
+        color: black;
+    }
+
+    nav ul{
+        padding: 0;
+        width: 100%;
+    }
+
+    nav ul li{
+        border-bottom: 4px solid #f2f2f2;
+        margin: 0;
+        padding: 0;
+        padding-bottom: 20px;
+        width: 50%;
+        text-align: center;
+    }
+
+    header ul li a:hover {
+        border-top: none;
+    }
+
+    header ul li:hover {
+        border-bottom: 4px solid #0065fc;
+        padding-bottom: 20px;
+    }
+
+    header ul li:hover a{
+        color: #0065fc;
+    }
+
+  
+
+    .filtres{
+        width: auto;
+        display: flex;
+        flex-wrap: wrap
+    }
+    
+    #retourLigne{
+        width: 200px;
+    }
+
+    .filtreIcone{
+        height: 65px;
+        min-width: 65px;
+        margin-right: 15px;
+
+    }
+    
+    .bordureFiltre{
+        height: 59px;
+        margin-top: 20px;
+        border: 3px solid #F2F2F2;
+        margin-left: 0px;
+        margin-right: 15px ;
+        border-left: none;
+    }
+    
+    .iTexte{
+        margin-top: 15px;
+    }
+    
+    .iRond{
+        height: 30px;
+        min-width: 30px;
+        margin-right: 20px;
+        border: 3px solid #F2F2F2;
+    }
+    
+    .iRond i{
+        font-size: 16px;
+    }
+
+    h2{
+        font-size: 2em;
+    }
+
+    .galerieActivite{
+        flex-direction: column;
+        height: auto;
+        margin-bottom: 20px;
+    }
+
+    .vignetteActivite{
+        width: auto;
+    }
+
+    .vignetteActiviteDouble{
+        width: 100%;
+    }
+
+    .imgActivite{
+        padding-top: 200px;
+    }
+
+    #pomegues{
+        padding-top: 200px;
+    }
+
+    #frioul{
+        padding-top: 200px;
+    }
+
+    #notreDame{
+        padding-top: 200px;
+    }
+
+    #longchamp{
+        padding-top: 200px;
+    }
+
+    .vignetteActivite p{
+        font-size: 1.4em;
+    }
+
+    footer{
+        margin: 5px;
+        padding: 30px;
+    }
+  }
