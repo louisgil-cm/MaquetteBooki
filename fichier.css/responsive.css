@@ -1,13 +1,7 @@
 /* header */
 
 
-@media screen and (max-width: 992px) {
-  .nav-items {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-  }
-}
+
 
 @media screen and (max-width: 992px) {
   button{
@@ -27,29 +21,6 @@
   }
 }
 
-
-@media (max-width: 992px) {
-  .navigation {
-     display: flex;
-    flex-wrap: wrap;
-     width: 100%;
-     flex-direction: column;
-  }
-}
-@media (max-width: 992px) {
-  .search-section{
-     width: 100%;
-  }
-}
-@media (max-width: 992px) {
-  nav{
-     display: flex;
-     flex-direction: row;
-     width: 100%;
-    
-  }
-}
-
 @media (max-width: 992px) {
   .filtering{
      width: 100%;
@@ -59,17 +30,6 @@
   }
   
 }
-@media screen and (max-width: 1016px) {
-
-  .filtering,
-  ul {
-    display: flex;
-    width: 100%;
-    flex-wrap: wrap;
-    margin-left: -50px;
-  }
-}
-
 
 
 
