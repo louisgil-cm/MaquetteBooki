@@ -266,12 +266,13 @@ form i {
     box-shadow: 0px 0px 35px #dadada;
 }
 
-.first-link{
-    border-top: #0065fc 3px solid;
+nav a{
     padding: 50px;
-    box-sizing: border-box;
-    color: #0065fc;
-    margin-top: -12px;
+    border-top: #0065FC solid 3px;
+}
+nav .deux{
+    padding: 50px;
+    border-top: white solid 3px;
 }
 nav a:hover{
     border: 1px solid #deebff;
@@ -518,11 +519,49 @@ footer ul{
 
 
 
+@media all and (max-width: 500px) {
+    header ul li a:hover {
+        border-top: none;
+    }
+
+    header ul li .un {
+        border-bottom: 4px solid #0065fc;
+        padding-bottom: 20px;
+        border-top: none;
+    }
+    header ul li .deux {
+        border-bottom: 4px solid grey;
+        padding-bottom: 20px;
+        border-top: none;
+  
+    }
+    }
+
+
+
+
+
+
+
+    
 @media all and (max-width: 992px) {
     body {
         width: 93%;
         margin: 15px;
     }
+    
+
+
+    header ul li .un {
+       
+        border-top: none;
+    }
+    header ul li .deux {
+        border-top: none;
+  
+    }
+
+
 
     header{
         font-size: 1.3em;
@@ -530,7 +569,9 @@ footer ul{
     }
     
     header img{
-        width: 160px;
+        
+        width:160px;
+        padding-left: 40%;
     }
 
     nav {
@@ -550,25 +591,18 @@ footer ul{
     }
 
     nav ul li{
-        border-bottom: 4px solid #f2f2f2;
         margin: 0;
         padding: 0;
         padding-bottom: 20px;
         width: 50%;
         text-align: center;
     }
+    
 
-    header ul li a:hover {
-        border-top: none;
-    }
-
-    header ul li:hover {
-        border-bottom: 4px solid #0065fc;
-        padding-bottom: 20px;
-    }
-
+   
+   
     header ul li:hover a{
-        color: #0065fc;
+        color: white;
     }
 
   
@@ -622,6 +656,7 @@ footer ul{
         flex-direction: column;
         height: auto;
         margin-bottom: 20px;
+        box-sizing: border-box;
     }
 
     .vignetteActivite{
@@ -634,22 +669,27 @@ footer ul{
 
     .imgActivite{
         padding-top: 200px;
+        box-sizing: border-box;
     }
 
     #pomegues{
         padding-top: 200px;
+        box-sizing: border-box;
     }
 
     #frioul{
         padding-top: 200px;
+        box-sizing: border-box;
     }
 
     #notreDame{
         padding-top: 200px;
+        box-sizing: border-box;
     }
 
     #longchamp{
         padding-top: 200px;
+        box-sizing: border-box;
     }
 
     .vignetteActivite p{
