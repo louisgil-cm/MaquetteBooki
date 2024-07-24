@@ -519,14 +519,21 @@ footer ul{
 
 
 
-@media all and (max-width: 400px) {
+@media all and (max-width: 376px) {
 
     body{ 
-        width: 100%;
+        width: 90%;
+        margin: 15px;
+        box-sizing: border-box;
+        overflow: hidden;
     }
     header{
-        width: 100%;
+        width: 90%;
+        margin: 15px;
+        box-sizing: border-box;
+        overflow: hidden;
     }
+
     }
  
 

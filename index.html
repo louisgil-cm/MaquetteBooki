@@ -19,14 +19,35 @@
     
         <!--header-->
 <header>
-    
+    <div id="headerUn">
+        <div>
+            <a href="index.html">
+                <img src="images/logo/Booki.png" alt="logo Reservia" />
+            </a>
+        </div>
+    </div>
+    <nav>
+        <ul>
+            <li ><a  class="un" href="#hebergements">Hébergements</a></li>
+            <li><a  class="deux" href="#activites">Activités</a></li>
+        </ul>
+    </nav>
 </header>
 
 <!--section recherche-->
 <section class="sousheader">
     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
     <p id="slogan">En plein centre-ville ou en pleine nature</p>
-    
+    <form action="get">
+        <i class="fas fa-map-marker-alt"></i>
+        <input type="search" name="search" id="search" placeholder="Marseille, France">
+        <button>
+            <span class="text">Recherche</span>
+            <span class="icon">
+                <i class="fas fa-search"></i>
+            </span>
+        </button>
+    </form>
     <div class="gras flexCentre filtres">
         <div id="retourLigne">Filtres</div>
         <div class="flexCentre bordureFiltre">
