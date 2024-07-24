@@ -519,10 +519,28 @@ footer ul{
 
 
 
+@media all and (max-width: 400px) {
+
+    body{ 
+        width: 100%;
+    }
+    header{
+        width: 100%;
+    }
+    }
+ 
+
+
+
 @media all and (max-width: 500px) {
     header ul li a:hover {
         border-top: none;
+      
     }
+    body{ 
+        width: 100%;
+    }
+
 
     header ul li .un {
         border-bottom: 4px solid #0065fc;
@@ -576,7 +594,7 @@ footer ul{
 
     nav {
         display: flex;
-        justify-content: space-around;
+        justify-content: space-between;
         width: 100%;
         padding: 0;
     }
