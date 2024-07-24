@@ -533,7 +533,12 @@ footer ul{
         box-sizing: border-box;
         overflow: hidden;
     }
-
+    main{
+        overflow: hidden;
+    }
+        footer{
+            overflow: hidden;
+        }
     }
  
 
