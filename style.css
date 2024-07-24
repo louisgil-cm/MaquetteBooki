@@ -525,20 +525,14 @@ footer ul{
         width: 90%;
         margin: 15px;
         box-sizing: border-box;
-        overflow: hidden;
+  
     }
     header{
         width: 90%;
         margin: 15px;
         box-sizing: border-box;
-        overflow: hidden;
+   
     }
-    main{
-        overflow: hidden;
-    }
-        footer{
-            overflow: hidden;
-        }
     }
  
 
