@@ -537,7 +537,7 @@ footer ul{
         
     }
     header .deux {
-        border-bottom: 4px solid grey;
+        border-bottom: 4px solid #f0f0f2;
         padding-bottom: 20px;
         border-top: none;
         display: block;
