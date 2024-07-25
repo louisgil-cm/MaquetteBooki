@@ -556,16 +556,23 @@ footer ul{
     body {
         width: 93%;
         margin: 15px;
+        
     }
     
-
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
 
     header ul li .un {
-       
         border-top: none;
+        margin-left: -30px;
     }
     header ul li .deux {
         border-top: none;
+        margin-right: -10px;
   
     }
 
