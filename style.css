@@ -1,6 +1,6 @@
 /*Police utilisée Raleway*/
 body {
-    font-family: Raleway, Arial, sans-serif;
+    font-family: 'Raleway';
     margin: 40px;
     }
 
@@ -572,7 +572,7 @@ header nav ul{
     }
     header ul li .deux {
         border-top: none;
-        margin-right: -5px;
+        margin-right: -2px;
   
     }
 
@@ -701,7 +701,7 @@ header nav ul{
     }
 
     .vignetteActivite p{
-        font-size: 1.4em;
+        font-weight: bold;
     }
     footer ul{
         width: 100%;
