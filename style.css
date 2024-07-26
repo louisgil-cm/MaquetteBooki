@@ -3,7 +3,9 @@ body {
     font-family: 'Raleway';
     margin: 40px;
     }
-
+    #activites p{
+        color: black;
+    }
 /*header*/
 
 header {
@@ -102,6 +104,10 @@ button {
     color: white;
     font-size: 1.1rem;
     
+    
+}
+.sousheader p{
+   margin-bottom: 25px; 
 }
 
 input {
@@ -545,20 +551,23 @@ footer ul{
     }
     }
 
-
-
-
-
-
-
-    
 @media all and (max-width: 992px) {
     body {
         width: 93%;
         margin: 15px;
         
     }
-    
+    button{
+        width: 50px;
+        height: 50px;
+    }
+    .icon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-left: -15px;
+        
+    }
 header nav ul{
     display: flex;
     justify-content: space-between;
