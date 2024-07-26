@@ -132,6 +132,8 @@ form i {
     background-color: #f2f2f2;
     box-sizing: border-box;
     height: 50px;
+    z-index:5 ;
+    margin-right: -2px;
 
 }
 
